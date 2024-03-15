@@ -1,0 +1,1 @@
+console.log("Everything, Everywhere, All At Once")
