@@ -12,7 +12,7 @@ class PostList(generic.ListView):
 
 
 def post_detail(request, slug):
-     """
+    """
     Display an individual :model: `blog.Post` .
 
      **Content**
@@ -31,5 +31,6 @@ def post_detail(request, slug):
     return render(
         request,
         'blog/post_detail.html',
-        {'post':post},
+        {'post': post,
+        'coder': 'Bartosz Stanczuk'},
     )
